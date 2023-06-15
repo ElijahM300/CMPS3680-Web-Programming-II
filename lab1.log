@@ -1,0 +1,8 @@
+[07-Feb-2022 19:24:52 America/Los_Angeles] PHP Notice:  Undefined variable: myName in /home/stu/emorris/public_html/3680/lab01_2.php on line 25
+[07-Feb-2022 19:25:23 America/Los_Angeles] PHP Notice:  Undefined variable: myName in /home/stu/emorris/public_html/3680/lab01_2.php on line 25
+[07-Feb-2022 19:45:19 America/Los_Angeles] PHP Notice:  Undefined variable: myName in /home/stu/emorris/public_html/3680/lab01_2.php on line 25
+[07-Feb-2022 19:53:22 America/Los_Angeles] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/stu/emorris/public_html/3680/lab01_2.php on line 11
+[07-Feb-2022 19:53:22 America/Los_Angeles] PHP Notice:  Undefined variable: myName in /home/stu/emorris/public_html/3680/lab01_2.php on line 26
+[07-Feb-2022 19:55:39 America/Los_Angeles] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/stu/emorris/public_html/3680/lab01_2.php on line 11
+[07-Feb-2022 19:55:39 America/Los_Angeles] PHP Notice:  Undefined variable: myName in /home/stu/emorris/public_html/3680/lab01_2.php on line 26
+[07-Feb-2022 19:56:03 America/Los_Angeles] PHP Notice:  Undefined variable: myName in /home/stu/emorris/public_html/3680/lab01_2.php on line 26

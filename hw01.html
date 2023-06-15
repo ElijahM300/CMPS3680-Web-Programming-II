@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CMPS 3680 Homework 1</title>
+        <script>
+            var isChanged = false;
+            var text = document.getElementById("text_change");
+            function change(){
+                if(isChanged == false) {
+                    isChanged = true;
+                    text.innerHTML = "Computer Science is awesome!";
+                }
+                else {
+                    isChanged = false;
+                    text.innerHTML = "Hello!"
+                }
+            }
+        </script>
+    </head>
+    <body style = "background-color: beige;">
+        <div style = "height: 100px; width: 1600px; margin-top: -21px; margin-left: -8px; background-color: lightgray;">
+           <div style = "padding-top: 12px; padding-left: 620px;">
+                <h1 style = "font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                    CMPS 3680 Homework 1
+                </h1>
+            </div>
+        </div>
+        <div style = "margin-top: 50px;">
+            <p style = "font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                Some resources for students below
+            </p>
+            <ul style = "font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                <li>Link to the CSUB CS Dept <a href = https://www.cs.csub.edu>here</a></li>
+                <li>Link to the CSUB Website <a href = https://www.csub.edu>here</a></li>
+            </ul>
+            <img src = "jjba.jpg" alt = "The best anime series" style = "width: 300px; height: 375px; margin-left: 630px; margin-top: 20px;">
+        </div>
+        <div>
+            <p style = "font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                Click the button below to change the text
+            </p>
+            <p id = text_change style = "font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+                Hello!</p>
+            <button onclick = "change()">Change</button>
+        </div>
+    </body>
+
+</html>
+
